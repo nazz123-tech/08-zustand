@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { CreateNotePayload } from './api';
+import { CreateNotePayload } from '../api';
 
 type NoteDraftStore = {
   draft: CreateNotePayload;
