@@ -9,7 +9,19 @@ export const metadata:Metadata={
   title: "NoteHub",
   description: "Created by GoIT student",
   openGraph:{
-    url:'https://notehub.com/'
+    title: "NoteHub - Organize Your Notes Easily",
+    description:
+      "Create, edit, and manage your notes anytime with NoteHub. Keep your thoughts organized and accessible from anywhere.",
+    url:'https://notehub.com/',
+    images: [
+      {
+        url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
+        width: 1200,
+        height: 630,
+        alt: "NoteHub app interface preview",
+      },
+    ],
+    
   }
 }
 
