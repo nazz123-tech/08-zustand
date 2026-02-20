@@ -2,27 +2,10 @@ import css from './page.module.css'
 import { Metadata } from 'next'
 
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: `Page not found`,
-    description: 'Page you were looking for is not exist',
-    openGraph: {
-      title: `Page not found`,
-    description: 'Page you were looking for is not exist',
-      url: `https://notehub.com/notes/all`,
-      siteName: 'NoteHub',
-      images: [
-        {
-          url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
-          width: 1200,
-          height: 630,
-          alt: "NoteHub",
-        },
-      ],
-      type: 'article',
-    },
-  }
-}
+export const metadata: Metadata = {
+  title: `Page not found`,
+  description: 'The page you were looking for does not exist',
+};
 
 export default function NotFound(){
     return (

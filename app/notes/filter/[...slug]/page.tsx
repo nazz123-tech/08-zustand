@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `Note: ${category}`,
       description: `Here is all notes realated to ${category}`,
-      url: `https://notehub.com/notes/`,
+      url: `https://notehub.com/notes/${category}`,
       siteName: 'NoteHub',
       images: [
         {
