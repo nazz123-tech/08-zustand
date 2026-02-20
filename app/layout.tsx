@@ -5,27 +5,14 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import TanStackProvider from '../components/TanStackProvider/TanStackProvider'
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "NoteHub",
+export const metadata:Metadata={
+  title: "NoteHub",
   description: "Created by GoIT student",
-    openGraph: {
-     title: "NoteHub",
-  description: "The hub for all your notes",
-      url: `https://notehub.com/notes/`,
-      siteName: 'NoteHub',
-      images: [
-        {
-          url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
-          width: 1200,
-          height: 630,
-          alt: "NoteHub",
-        },
-      ],
-      type: 'article',
-    },
+  openGraph:{
+    url:'https://notehub.com/'
   }
 }
+
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '700'],
