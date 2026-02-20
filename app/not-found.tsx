@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: `Page not found`,
     description: 'Page you were looking for is not exist',
-      url: `https://notehub.com/notes/${id}`,
+      url: `https://notehub.com/notes/all`,
       siteName: 'NoteHub',
       images: [
         {
